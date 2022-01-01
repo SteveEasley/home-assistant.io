@@ -97,7 +97,7 @@ Field | Example | Description
 `key_code` | 57 | The code of the key pressed. Use the event log in Developer Tools to get a key code.
 `name` | space | The name of the key pressed. Use the event log in Developer Tools to get a key name.
 `type` | key_down | One of `key_down`, `key_hold`, or `key_up`.
-`duration` | 512 | The time in miliseconds the key has been pressed.
+`duration` | 512 | The time in miliseconds since key_down`.
 `device_descriptor` | /dev/input/by-id/usb-keyboard | The input device descriptor.
 `device_name` | USB Keyboard| The input device name.
 
